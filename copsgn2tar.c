@@ -6,7 +6,7 @@
  */
 #include "copsgn2tar.h"
 
-#define NDEBUG 1
+#define NDEBUG 0
 #define VERSION "1.0"
 
 #define MAX_FILE_NAME (1 << 8)
