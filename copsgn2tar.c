@@ -17,11 +17,11 @@ int main(int argc,const char **argv)
     print_usage(argv[0]);
     return EINVAL;
   }
-  char file_in_name[MAX_FILE_NAME];
-  char file_out_name[MAX_FILE_NAME];
+  char file_in_name[MAX_FILE_NAME] = {};
+  char file_out_name[MAX_FILE_NAME] = {};
   FILE *file_in = NULL;
   FILE *file_out = NULL;
-  int ch, do_write = NULL;
+  int ch = NULL, do_write = NULL;
 
   strncpy(file_in_name, argv[1], MAX_FILE_NAME);
   file_in = fopen(file_in_name, "r");
