@@ -4,9 +4,9 @@
  * @author Stas Kobzar <stas@modulis.ca> 
  * 
  */
+#define NDEBUG
 #include "copsgn2tar.h"
 
-#define NDEBUG 0
 #define VERSION "1.0"
 
 #define MAX_FILE_NAME (1 << 8)
